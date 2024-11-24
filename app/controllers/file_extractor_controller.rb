@@ -26,6 +26,8 @@ class FileExtractorController < ApplicationController
 
   private
 
+  # process each action
+
   def add_children(mother_name, name, gender)
     gender = if gender.downcase == 'male'
                :male
